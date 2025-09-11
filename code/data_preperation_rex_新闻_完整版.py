@@ -198,7 +198,7 @@ class StockNewsFilterRex:
             import os
             import json
 
-            cache_file = "data/ashare_name_to_code_20250826_1112.json"
+            cache_file = "data/ashare_name_to_code_20250826_1112_with_aliases.json"
             if os.path.exists(cache_file):
                 print(f"🔄 正在从本地缓存加载A股公司列表: {cache_file}")
                 with open(cache_file, "r", encoding="utf-8") as f:
@@ -660,17 +660,16 @@ class StockNewsFilterRex:
         # 🔧 改进：使用公司密度验证
         company_density = self.calculate_company_density(text, company_name)
         
-        # 🔧 基于9.3%合理通过率，进一步放宽阈值 
+        # 🔧 对于普通公司（非常见词），不进行密度审查
         if company_name in self.ambiguous_company_names:
             # 容易误识别的公司名：2% → 1.5%
             base_threshold = 0.015  # 1.5%
+            # 如果密度太低，认为只是偶然提及
+            if company_density < base_threshold:
+                return False
         else:
-            # 普通公司名：1.0% → 0.5%，大幅放宽以捕获更多相关新闻
-            base_threshold = 0.005  # 0.5%
-        
-        # 如果密度太低，认为只是偶然提及
-        if company_density < base_threshold:
-            return False
+            # 普通公司名：不进行密度审查，直接进入后续检查
+            pass
         
         # 🔧 改进：对于所有公司都进行适当的上下文验证
         company_code = self.get_company_code(company_name)
@@ -725,22 +724,30 @@ class StockNewsFilterRex:
         # 如果公司名称出现在战略相关上下文中，检查是否有其他公司名称
         has_strategy_context = any(re.search(pattern, text) for pattern in strategy_conflict_patterns)
         if has_strategy_context:
-            # 检查是否有其他公司名称（非A股公司）在新闻中占主导地位
-            # 这里我们检查一些常见的非A股公司名称
-            non_ashare_companies = [
-                "联想集团", "腾讯", "阿里巴巴", "百度", "京东", "美团", "小米", "华为",
-                "苹果", "微软", "谷歌", "亚马逊", "特斯拉", "比亚迪", "恒大", "碧桂园",
-                "万科", "保利", "中海", "华润", "招商", "中信", "平安", "中国人寿",
-                "中国移动", "中国联通", "中国电信", "中国石油", "中国石化", "中国海油"
-            ]
+            # 🔧 改进：排除合作类新闻，合作新闻中非A股公司出现次数多是正常的
+            cooperation_keywords = ["合作", "协议", "签署", "达成", "联手", "共同", "协同"]
+            has_cooperation_context = any(keyword in text for keyword in cooperation_keywords)
             
-            for non_ashare_company in non_ashare_companies:
-                if non_ashare_company in text:
-                    non_ashare_count = text.count(non_ashare_company)
-                    ashare_count = text.count(company_name)
-                    # 如果非A股公司出现次数明显更多，认为这是关于非A股公司的新闻
-                    if non_ashare_count > ashare_count * 2:  # 非A股公司出现次数是A股公司的2倍以上
-                        return False
+            if has_cooperation_context:
+                # 如果是合作类新闻，不进行非A股公司主导检查
+                pass
+            else:
+                # 检查是否有其他公司名称（非A股公司）在新闻中占主导地位
+                # 这里我们检查一些常见的非A股公司名称
+                non_ashare_companies = [
+                    "联想集团", "腾讯", "阿里巴巴", "百度", "京东", "美团", "小米", "华为",
+                    "苹果", "微软", "谷歌", "亚马逊", "特斯拉", "比亚迪", "恒大", "碧桂园",
+                    "万科", "保利", "中海", "华润", "招商", "中信", "平安", "中国人寿",
+                    "中国移动", "中国联通", "中国电信", "中国石油", "中国石化", "中国海油"
+                ]
+                
+                for non_ashare_company in non_ashare_companies:
+                    if non_ashare_company in text:
+                        non_ashare_count = text.count(non_ashare_company)
+                        ashare_count = text.count(company_name)
+                        # 如果非A股公司出现次数明显更多，认为这是关于非A股公司的新闻
+                        if non_ashare_count > ashare_count * 2:  # 非A股公司出现次数是A股公司的2倍以上
+                            return False
         
         if has_strict_indicator or has_strong_context:
             # 🔧 修复：公司成立类新闻过滤逻辑
@@ -766,10 +773,15 @@ class StockNewsFilterRex:
         # 其他情况通过密度验证已经判断
         return True
     
-    def is_stock_related_non_price_news(self, text: str, title: str = "") -> bool:
+    def is_stock_related_non_price_news(self, text: str, title: str = "", strict_mode: bool = True) -> bool:
         """
         判断是否是涉及上市公司且包含除股价外内容的新闻
         相当于原来的 p_filter_stock_price_news
+        
+        Args:
+            text: 新闻内容
+            title: 新闻标题  
+            strict_mode: 是否使用严格模式（严格模式会禁用快速通过逻辑并加强筛选条件）
         """
         if not text:
             return False
@@ -798,7 +810,21 @@ class StockNewsFilterRex:
             
             if any(indicator in title for indicator in title_market_indicators):
                 return False
-            
+        
+        # 🔧 新增：非常用词公司快速通过逻辑（仅在非严格模式下生效）
+        # 如果标题不是涨跌类新闻，且包含非常用词公司，直接通过
+            if not strict_mode and title:
+                # 检查标题中是否有非常用词公司
+                title_companies = self.extract_companies(title)
+                title_companies = [c for c in title_companies if c != "同花顺"]
+                
+                # 检查是否有非常用词公司（不在ambiguous_company_names中的公司）
+                non_ambiguous_companies = [c for c in title_companies if c not in self.ambiguous_company_names]
+                
+                if non_ambiguous_companies:
+                    # 标题中有非常用词公司，且标题不是涨跌类新闻，直接通过
+                    return True
+        
         # 检查是否提到公司
         companies = self.extract_companies(text)
         if not companies:
@@ -977,6 +1003,34 @@ class StockNewsFilterRex:
             pass  # 继续处理，不在这里返回False
         elif not has_business_content and not is_announcement_type and not high_density_company and not has_performance_content:
             return False
+        
+        # 🔧 严格模式：额外的筛选条件
+        if strict_mode:
+            # 严格模式下，要求更强的业务相关性
+            strong_business_indicators = [
+                "公告", "披露", "发布", "财报", "年报", "季报", "业绩",
+                "董事会", "股东大会", "分红", "收购", "重组", "合作", "签署",
+                "营收", "利润", "增长", "项目", "订单", "合同", "协议"
+            ]
+            
+            has_strong_business = any(indicator in text for indicator in strong_business_indicators)
+            
+            # 严格模式下，如果没有强业务指标，需要更高的公司密度
+            if not has_strong_business:
+                max_density = max(self.calculate_company_density(text, c) for c in valid_companies)
+                if max_density < 0.03:  # 严格模式要求3%以上的密度
+                    return False
+            
+            # 严格模式下，过滤更多的市场分析类内容
+            strict_filter_patterns = [
+                "市场观点", "投资建议", "分析师", "机构观点", "预期", "预计",
+                "建议", "推荐", "关注", "看好", "看空", "把握机会",
+                "投资策略", "投资机会", "概念股", "主题投资"
+            ]
+            
+            strict_filter_count = sum(text.count(pattern) for pattern in strict_filter_patterns)
+            if strict_filter_count >= 2:  # 如果包含2个以上严格过滤词汇，则过滤
+                return False
         
         # 检查是否主要是价格新闻
         if self.mentions_price_change(text):
