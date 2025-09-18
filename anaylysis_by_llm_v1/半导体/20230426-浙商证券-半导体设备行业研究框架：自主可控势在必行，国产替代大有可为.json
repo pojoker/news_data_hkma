@@ -1,0 +1,405 @@
+{
+  "generated_at": "2025-09-18 13:29:20",
+  "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+  "entry_count": 12,
+  "entries": [
+    {
+      "global_index": 285,
+      "focus": "半导体",
+      "situation": "国家出台新一轮半导体产业扶持与补贴政策",
+      "news_sample": "《加快半导体装备国产化行动方案》正式发布，设立3000亿元产业投资基金并对核心设备企业给予最高30%研发补贴",
+      "reason_and_trend": "政府为保障供应链安全、加快国产替代，推出专项基金、税收减免与贴息贷款等鼓励措施",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "国家出台新一轮半导体产业扶持与补贴政策 属于政策/资本驱动事件，会直接扩张可寻址市场或降低风险溢价，公告落地后资金会据此上调盈利假设。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充国家出台新一轮半导体产业扶持与补贴政策 属于政策/资本驱动事件，会直接扩张可寻址市场或降低风险溢价，公告落地后资金会据此上调盈利假设。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 286,
+      "focus": "半导体",
+      "situation": "头部晶圆厂宣布大规模扩产或新建12英寸产线",
+      "news_sample": "中芯国际拟投资70亿美元在上海临港建设月产10万片12英寸晶圆厂，计划2025年投产",
+      "reason_and_trend": "国内芯片自给率亟待提升，晶圆厂抢占产能窗口期，集中上马先进与特色工艺生产线",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": false,
+        "timing": "消息前后均可",
+        "impact_magnitude": 0,
+        "confidence": "low",
+        "strategy": "",
+        "reasoning": [],
+        "risk_factors": []
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "头部晶圆厂宣布大规模扩产或新建12英寸产线 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。"
+      },
+      "alignment": {
+        "will_rise": "不一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": false,
+        "comment": "Claude持谨慎态度，但我认为头部晶圆厂宣布大规模扩产或新建12英寸产线 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。，因此倾向于在消息后布局。Claude关注执行风险。"
+      }
+    },
+    {
+      "global_index": 287,
+      "focus": "半导体",
+      "situation": "低国产化率核心设备实现技术突破并通过量产验证",
+      "news_sample": "国内首台14nm逻辑工艺离子注入机在长江存储完成量产验证并批量交付",
+      "reason_and_trend": "关键环节（如ALD、离子注入、浸没式DUV光刻等）在国产企业持续攻关下达到14-7nm制程要求并获得主流客户认证",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息发布后",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "等待商业化确认再重仓",
+        "reasoning": [
+          "技术突破提升企业竞争力和市场地位",
+          "国产技术突破有助于打破国外垄断"
+        ],
+        "risk_factors": [
+          "技术商业化进程可能慢于预期",
+          "技术路线存在不确定性"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "低国产化率核心设备实现技术突破并通过量产验证 强化了产品竞争力与盈利质量，证明盈利模型将改善，消息确认后估值中枢上移。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息发布后，我安排消息后执行。Claude强调技术突破提升企业竞争力和市场地位、国产技术突破有助于打破国外垄断，我补充低国产化率核心设备实现技术突破并通过量产验证 强化了产品竞争力与盈利质量，证明盈利模型将改善，消息确认后估值中枢上移。。风险提示：技术商业化进程可能慢于预期、技术路线存在不确定性。"
+      }
+    },
+    {
+      "global_index": 288,
+      "focus": "半导体",
+      "situation": "半导体零部件及材料实现本土成套化供给",
+      "news_sample": "北方华创宣布其主要蚀刻机核心部件国产化率提升至85%，完全摆脱对美日高端零件依赖",
+      "reason_and_trend": "在出口限制背景下，本土厂商完成射频电源、质量流量控制器、精密阀门等核心零部件国产化",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "半导体零部件及材料实现本土成套化供给 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充半导体零部件及材料实现本土成套化供给 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 289,
+      "focus": "半导体",
+      "situation": "全球半导体资本开支进入上行周期并被机构上调预测",
+      "news_sample": "IC Insights将2024年全球半导体资本开支增速预测从18%上修至25%",
+      "reason_and_trend": "库存去化完成、AI/HPC新需求爆发，国际研究机构连续上调2024-2025年资本开支增速预期",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "全球半导体资本开支进入上行周期并被机构上调预测 属于政策/资本驱动事件，会直接扩张可寻址市场或降低风险溢价，公告落地后资金会据此上调盈利假设。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充全球半导体资本开支进入上行周期并被机构上调预测 属于政策/资本驱动事件，会直接扩张可寻址市场或降低风险溢价，公告落地后资金会据此上调盈利假设。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 290,
+      "focus": "半导体",
+      "situation": "汽车电子、工业电子等下游高速增长带来新增设备需求",
+      "news_sample": "比亚迪计划三年内新增月产8万片8英寸功率器件产线，已启动首批设备采购",
+      "reason_and_trend": "智能汽车、工业自动化、电动车功率芯片等应用渗透率提升，推动特色工艺线持续扩容",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息发布后",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息确认后快速建仓，骑上趋势",
+        "reasoning": [
+          "基本面改善是股价上涨的核心驱动力"
+        ],
+        "risk_factors": [
+          "业绩能否持续增长存在不确定性"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "汽车电子、工业电子等下游高速增长带来新增设备需求 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息发布后，我安排消息后执行。Claude强调基本面改善是股价上涨的核心驱动力，我补充汽车电子、工业电子等下游高速增长带来新增设备需求 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。。风险提示：业绩能否持续增长存在不确定性。"
+      }
+    },
+    {
+      "global_index": 291,
+      "focus": "半导体",
+      "situation": "企业发布超预期业绩或高增速盈利预告",
+      "news_sample": "某半导体设备公司预计上半年净利润同比增长120%-150%，订单与合同负债创新高",
+      "reason_and_trend": "订单排产饱满、规模效应显现，企业净利润大幅超市场一致预期",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "企业发布超预期业绩或高增速盈利预告 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充企业发布超预期业绩或高增速盈利预告 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 292,
+      "focus": "半导体",
+      "situation": "国产厂商获得国际顶级客户或先进产线的批量订单",
+      "news_sample": "国内清洗设备厂商中标三星3nm产线50套单片清洗机，合同金额达3亿美元",
+      "reason_and_trend": "设备性能与可靠性通过全球验证，首次进入三星/台积电/海力士等7-5nm或3D NAND产线规模采购名单",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": false,
+        "timing": "消息发布后",
+        "impact_magnitude": 5,
+        "confidence": "medium",
+        "strategy": "消息确认后快速建仓，骑上趋势",
+        "reasoning": [
+          "基本面改善是股价上涨的核心驱动力",
+          "订单增长提供业绩增长的可见性"
+        ],
+        "risk_factors": [
+          "业绩能否持续增长存在不确定性"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "国产厂商获得国际顶级客户或先进产线的批量订单 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。"
+      },
+      "alignment": {
+        "will_rise": "不一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": false,
+        "comment": "Claude持谨慎态度，但我认为国产厂商获得国际顶级客户或先进产线的批量订单 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。，因此倾向于在消息后布局。Claude关注业绩能否持续增长存在不确定性。"
+      }
+    },
+    {
+      "global_index": 293,
+      "focus": "半导体",
+      "situation": "海外出口管制进一步收紧，倒逼本土替代需求集中爆发",
+      "news_sample": "日本正式实施23项半导体装备出口限制，新唐、华虹紧急启动30亿元国产设备追加招标",
+      "reason_and_trend": "美日荷相继扩大对华先进设备出口限制范围，成熟制程部分设备亦被纳入许可清单",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": false,
+        "timing": "消息后",
+        "rationale": "海外出口管制进一步收紧，倒逼本土替代需求集中爆发 表明经营受阻或增长下修，兑现即触发盈利模型下调，因此消息落地后股价承压。"
+      },
+      "alignment": {
+        "will_rise": "不一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": false,
+        "comment": "Claude看多（理由：事件驱动明确、主题热度高、标的稀缺性强），并建议消息前后均可操作；我仍偏向谨慎，因海外出口管制进一步收紧，倒逼本土替代需求集中爆发 表明经营受阻或增长下修，兑现即触发盈利模型下调，因此消息落地后股价承压。。需防范市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 294,
+      "focus": "半导体",
+      "situation": "企业完成大额融资或定增用于扩产及研发",
+      "news_sample": "某薄膜沉积设备企业完成80亿元定增，建设年产500台12英寸PECVD生产基地",
+      "reason_and_trend": "行业高景气+政策支持下，公司通过定增/可转债筹集资金扩建设备产线与研发中心",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": false,
+        "timing": "消息前后均可",
+        "impact_magnitude": 0,
+        "confidence": "low",
+        "strategy": "",
+        "reasoning": [],
+        "risk_factors": []
+      },
+      "codex": {
+        "will_rise": false,
+        "timing": "消息后",
+        "rationale": "企业完成大额融资或定增用于扩产及研发 增加二级市场供给或稀释原股东利益，公告后往往带来抛压。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境不会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调驱动因素，我补充企业完成大额融资或定增用于扩产及研发 增加二级市场供给或稀释原股东利益，公告后往往带来抛压。。风险提示：关注执行落地。"
+      }
+    },
+    {
+      "global_index": 295,
+      "focus": "半导体",
+      "situation": "行业并购整合加速，企业平台化版图扩张",
+      "news_sample": "国内ALD设备龙头收购涂胶显影企业51%股权，实现薄膜-光刻-刻蚀全流程布局",
+      "reason_and_trend": "头部公司通过收购上下游或平行细分厂商，完善产品线、切入空白环节，实现一站式交付",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "行业并购整合加速，企业平台化版图扩张 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充行业并购整合加速，企业平台化版图扩张 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 296,
+      "focus": "半导体",
+      "situation": "3D NAND堆叠层数提升或先进封装渗透率提高，带动刻蚀/沉积/清洗设备需求倍增",
+      "news_sample": "SK海力士启动320层3D NAND量产计划，公布未来两年向刻蚀、PECVD等设备追加470亿元采购合同",
+      "reason_and_trend": "存储器结构由128层向256-320层纵深发展，多重刻蚀与沉积步骤显著增加；Chiplet等先进封装放量",
+      "source_file": "半导体\\20230426-浙商证券-半导体设备行业研究框架：自主可控势在必行，国产替代大有可为.json",
+      "claude": {
+        "will_rise": false,
+        "timing": "消息发布前",
+        "impact_magnitude": 5,
+        "confidence": "low",
+        "strategy": "关注产业链草根调研信号",
+        "reasoning": [
+          "供需结构调整对行业有一定影响"
+        ],
+        "risk_factors": [
+          "供需变化可能是短期现象",
+          "产业链传导存在时滞"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "3D NAND堆叠层数提升或先进封装渗透率提高，带动刻蚀/沉积/清洗设备需求倍增 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。"
+      },
+      "alignment": {
+        "will_rise": "不一致",
+        "timing": "不一致",
+        "codex_agrees_with_claude": false,
+        "comment": "Claude持谨慎态度，但我认为3D NAND堆叠层数提升或先进封装渗透率提高，带动刻蚀/沉积/清洗设备需求倍增 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。，因此倾向于在消息后布局。Claude关注供需变化可能是短期现象、产业链传导存在时滞。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "generated_at": "2025-09-18 13:29:20",
+  "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+  "entry_count": 10,
+  "entries": [
+    {
+      "global_index": 212,
+      "focus": "半导体",
+      "situation": "企业率先实现 8 英寸碳化硅衬底的稳定量产",
+      "news_sample": "【快讯】A 公司宣布其 8 英寸 SiC 衬底通过客户验证并进入批量交付阶段，年产能率先突破 10 万片。",
+      "reason_and_trend": "技术迭代——随着 SiC 行业从 6 吋向 8 吋升级，率先攻克大尺寸衬底良率与工艺难题的企业具备先发优势。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息发布后",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "等待商业化确认再重仓",
+        "reasoning": [
+          "技术突破提升企业竞争力和市场地位"
+        ],
+        "risk_factors": [
+          "技术商业化进程可能慢于预期",
+          "技术路线存在不确定性"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "企业率先实现 8 英寸碳化硅衬底的稳定量产 强化了产品竞争力与盈利质量，证明盈利模型将改善，消息确认后估值中枢上移。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息发布后，我安排消息后执行。Claude强调技术突破提升企业竞争力和市场地位，我补充企业率先实现 8 英寸碳化硅衬底的稳定量产 强化了产品竞争力与盈利质量，证明盈利模型将改善，消息确认后估值中枢上移。。风险提示：技术商业化进程可能慢于预期、技术路线存在不确定性。"
+      }
+    },
+    {
+      "global_index": 213,
+      "focus": "半导体",
+      "situation": "突破性切割/抛光工艺使单位衬底成本大幅下降",
+      "news_sample": "B 公司发布新一代激光冷裂+固定磨料 CMP 组合工艺，衬底材料利用率从 50% 提升至 80%，单位成本降 35%。",
+      "reason_and_trend": "工艺革新——高硬度脆性材料的新型切割、抛光方案正逐步替代传统金刚线，提高利用率、降低缺陷。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": false,
+        "timing": "消息发布前",
+        "impact_magnitude": 4,
+        "confidence": "low",
+        "strategy": "小仓位参与主题炒作",
+        "reasoning": [
+          "技术突破提升企业竞争力和市场地位"
+        ],
+        "risk_factors": [
+          "技术商业化进程可能慢于预期",
+          "技术路线存在不确定性"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "突破性切割/抛光工艺使单位衬底成本大幅下降 强化了产品竞争力与盈利质量，证明盈利模型将改善，消息确认后估值中枢上移。"
+      },
+      "alignment": {
+        "will_rise": "不一致",
+        "timing": "不一致",
+        "codex_agrees_with_claude": false,
+        "comment": "Claude持谨慎态度，但我认为突破性切割/抛光工艺使单位衬底成本大幅下降 强化了产品竞争力与盈利质量，证明盈利模型将改善，消息确认后估值中枢上移。，因此倾向于在消息后布局。Claude关注技术商业化进程可能慢于预期、技术路线存在不确定性。"
+      }
+    },
+    {
+      "global_index": 214,
+      "focus": "半导体",
+      "situation": "公司公布百亿级扩产计划并获得政府专项补贴",
+      "news_sample": "C 企业拟投资 120 亿元在某新区建设 SiC 全产业链园区，获地方财政 20 亿元扶持及用电优惠。",
+      "reason_and_trend": "产能竞赛——行业高景气促使头部厂商加速扩张；地方政府将宽禁带半导体列为战略新兴产业重点扶持。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "公司公布百亿级扩产计划并获得政府专项补贴 属于政策/资本驱动事件，会直接扩张可寻址市场或降低风险溢价，公告落地后资金会据此上调盈利假设。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充公司公布百亿级扩产计划并获得政府专项补贴 属于政策/资本驱动事件，会直接扩张可寻址市场或降低风险溢价，公告落地后资金会据此上调盈利假设。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 215,
+      "focus": "半导体",
+      "situation": "与全球新能源车龙头签署多年 SiC 长期供货协议",
+      "news_sample": "D 公司与特定新能源车企签订 5 年 SiC 器件及衬底采购协议，总金额预计 80 亿元。",
+      "reason_and_trend": "需求锁定——下游车企为保障 SiC 供应链稳定，倾向于与材料及器件厂签署锁价或锁量合约。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "与全球新能源车龙头签署多年 SiC 长期供货协议 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充与全球新能源车龙头签署多年 SiC 长期供货协议 体现终端需求或订单动能增强，A股对业绩可见度非常敏感，确认后买方资金会加仓相关龙头。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 216,
+      "focus": "半导体",
+      "situation": "国产 SiC 衬底通过国际车规/通讯设备认证",
+      "news_sample": "E 公司 6 英寸导电型 SiC 衬底获得 IATF 16949 与 ISO 26262 双重车规及 5G 基站客户认证。",
+      "reason_and_trend": "品质爬坡——车规和高频通讯领域对可靠性要求严苛，认证通过标志国产厂商技术成熟度大幅提升。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": false,
+        "timing": "消息发布前",
+        "impact_magnitude": 4,
+        "confidence": "low",
+        "strategy": "小仓位参与主题炒作",
+        "reasoning": [
+          "技术突破提升企业竞争力和市场地位",
+          "国产技术突破有助于打破国外垄断"
+        ],
+        "risk_factors": [
+          "技术商业化进程可能慢于预期",
+          "技术路线存在不确定性"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "国产 SiC 衬底通过国际车规/通讯设备认证 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。"
+      },
+      "alignment": {
+        "will_rise": "不一致",
+        "timing": "不一致",
+        "codex_agrees_with_claude": false,
+        "comment": "Claude持谨慎态度，但我认为国产 SiC 衬底通过国际车规/通讯设备认证 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。，因此倾向于在消息后布局。Claude关注技术商业化进程可能慢于预期、技术路线存在不确定性。"
+      }
+    },
+    {
+      "global_index": 217,
+      "focus": "半导体",
+      "situation": "国际龙头意外停产/供应受限引发转单至本土厂商",
+      "news_sample": "因海外工厂事故，某全球 SiC 龙头预计停产 3 个月，F 公司紧急承接其欧洲客户追加订单。",
+      "reason_and_trend": "全球供应链脆弱——高集中度行业一旦龙头停摆，供需瞬时失衡，客户主动寻找替代来源。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": false,
+        "timing": "消息发布前",
+        "impact_magnitude": 4,
+        "confidence": "low",
+        "strategy": "关注海外媒体报道，提前布局",
+        "reasoning": [
+          "国际因素影响需要进一步观察"
+        ],
+        "risk_factors": [
+          "国际环境变化具有高度不确定性",
+          "政策调整可能反复"
+        ]
+      },
+      "codex": {
+        "will_rise": false,
+        "timing": "消息后",
+        "rationale": "国际龙头意外停产/供应受限引发转单至本土厂商 表明经营受阻或增长下修，兑现即触发盈利模型下调，因此消息落地后股价承压。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "不一致",
+        "codex_agrees_with_claude": false,
+        "comment": "双方在时点/方向上仍有差异。Claude：消息发布前；我：消息后。我的理由：国际龙头意外停产/供应受限引发转单至本土厂商 表明经营受阻或增长下修，兑现即触发盈利模型下调，因此消息落地后股价承压。；Claude理由：国际因素影响需要进一步观察."
+      }
+    },
+    {
+      "global_index": 218,
+      "focus": "半导体",
+      "situation": "功率半导体 IDMs 上游并购衬底厂实现产业链纵向整合",
+      "news_sample": "G 集团以 45 亿元收购国内 SiC 衬底企业，形成“衬底+外延+器件”一体化布局。",
+      "reason_and_trend": "纵向整合——器件厂为锁定关键原料，通过并购快速补齐产业链，降低供应风险。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "功率半导体 IDMs 上游并购衬底厂实现产业链纵向整合 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充功率半导体 IDMs 上游并购衬底厂实现产业链纵向整合 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 219,
+      "focus": "半导体",
+      "situation": "国家出台宽禁带半导体专项补贴与税收减免政策",
+      "news_sample": "工信部发布《第三代半导体产业高质量发展行动方案》，对 SiC 企业设备投资给予 20% 财政补贴。",
+      "reason_and_trend": "政策扶持——政府将宽禁带半导体列入战略安全与碳中和核心技术，提供资金与税收优惠。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "国家出台宽禁带半导体专项补贴与税收减免政策 属于政策/资本驱动事件，会直接扩张可寻址市场或降低风险溢价，公告落地后资金会据此上调盈利假设。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充国家出台宽禁带半导体专项补贴与税收减免政策 属于政策/资本驱动事件，会直接扩张可寻址市场或降低风险溢价，公告落地后资金会据此上调盈利假设。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 220,
+      "focus": "半导体",
+      "situation": "公司完成定增/获国家大基金入股，资本实力增强",
+      "news_sample": "H 公司宣布完成 60 亿元定向增发，国家集成电路大基金二期认购成为第二大股东。",
+      "reason_and_trend": "资本加持——SiC 行业技术密集+资金密集，国家资本与产业基金对优质企业加大投入。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": true,
+        "timing": "消息前后均可",
+        "impact_magnitude": 7,
+        "confidence": "high",
+        "strategy": "消息前潜伏，消息后追涨",
+        "reasoning": [
+          "事件驱动明确",
+          "主题热度高",
+          "标的稀缺性强"
+        ],
+        "risk_factors": [
+          "市场波动",
+          "政策变化"
+        ]
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "公司完成定增/获国家大基金入股，资本实力增强 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。"
+      },
+      "alignment": {
+        "will_rise": "一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": true,
+        "comment": "与Claude观点一致：双方均判断该情境会推升A股，CLAUDE侧建议消息前后均可，我安排消息后执行。Claude强调事件驱动明确、主题热度高、标的稀缺性强，我补充公司完成定增/获国家大基金入股，资本实力增强 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。。风险提示：市场波动、政策变化。"
+      }
+    },
+    {
+      "global_index": 221,
+      "focus": "半导体",
+      "situation": "新型高效 HTCVD 晶体生长设备联合研发成功",
+      "news_sample": "I 公司携手设备商推出国产首套 8 英寸 HTCVD 长晶炉，良率提升 20%，计划年内实现多台交付。",
+      "reason_and_trend": "装备国产化——关键设备突破有助于降低对进口依赖，提升晶体质量与生长速率。",
+      "source_file": "半导体\\20230221-广发证券-半导体行业碳化硅系列报告一：衬底篇，工欲善其事必先利其器，碳化硅衬底市场群雄逐鹿.json",
+      "claude": {
+        "will_rise": false,
+        "timing": "消息前后均可",
+        "impact_magnitude": 0,
+        "confidence": "low",
+        "strategy": "",
+        "reasoning": [],
+        "risk_factors": []
+      },
+      "codex": {
+        "will_rise": true,
+        "timing": "消息后",
+        "rationale": "新型高效 HTCVD 晶体生长设备联合研发成功 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。"
+      },
+      "alignment": {
+        "will_rise": "不一致",
+        "timing": "一致",
+        "codex_agrees_with_claude": false,
+        "comment": "Claude持谨慎态度，但我认为新型高效 HTCVD 晶体生长设备联合研发成功 指向行业基本面向上，确认信息出现后交易型资金会顺势推高估值。，因此倾向于在消息后布局。Claude关注执行风险。"
+      }
+    }
+  ]
+}
